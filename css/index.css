@@ -110,6 +110,7 @@ body {
 .page-navigation {
   display: flex;
   align-items: center;
+  padding-left: 215px;
 }
   
 .menu {
@@ -117,7 +118,7 @@ body {
 }
 
 .logo {
-  margin-right: 93px;
+  margin-right: 70px;
 }
 
 .menu-item {
@@ -158,10 +159,17 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-
   color: var(--menu-site-color);
 }
   
+.site-nav {
+  display: flex;
+  padding-left: 344px;
+}
+.contact-phone-number {
+  padding-left: 50px;
+  padding-right: 215px;
+}
   .contact-phone-number:hover,
   .contact-phone-number:focus {
     color: var(--address-color);
@@ -175,6 +183,13 @@ body {
   font-size: 14px;
   line-height: 1.6;
   letter-spacing: 0.03em;
+  padding-left: 22px;
+  padding-right: 22px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  margin-right: 8px;
+  margin-top: 94px;
+  margin-bottom: 50px;
   color: var(--text-color);
 }
 
@@ -184,6 +199,23 @@ body {
   color: var(--title-text-color);
 }
 
+.work-list {
+  display: flex;
+  margin-left: 512px;
+}
+
+.work-item {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  margin-bottom: 94px;
+}
+
+.work-item-conteiner:nth-child(3n) {
+  margin-right: 30px;
+}
+
 
 .title {
   font-family: var(--primary-font);
@@ -191,6 +223,7 @@ body {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  padding-top: 20px;
   color: var(--text-color);
 }
 
@@ -200,6 +233,7 @@ body {
   font-size: 16px;;
   line-height: 1.8;
   letter-spacing: 0.03em;
+  padding-top: 4px;
   color: var(--menu-site-color);
 }
 
@@ -240,6 +274,14 @@ body {
   line-height: 1.7;
   letter-spacing: 0.03em;
   color: var(--mail-links-color);
+}
+
+.address-conteiner {
+  padding-left: 215px;
+}
+
+.address-title-conteiner {
+  padding-left: 215px;
 }
   
 .mail-links:hover,
